@@ -1,0 +1,92 @@
+body{
+    background-size: cover;
+    height: 100vh;
+    background-image: url(image/mainBg.jpeg); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'KCCMurukmuruk',cursive;
+    
+}
+
+.container{
+    border: 10px solid white;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(247, 243, 242, 0.7);
+}
+
+.button-style {
+    height: 80px;
+    width: 129px;
+    margin-top: 5px;
+    border-radius: 50px;
+    font-size: 30pt;
+    font-weight: bold;
+}
+.pre-title{
+    color: rgb(255, 91, 145);
+    font-weight: bold;
+    font-size: 5vw;
+}
+
+@font-face {
+    font-family: 'KCCMurukmuruk';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCCMurukmuruk.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.main-img {
+    width: 20vw;
+    height: 25vh;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.result-style{
+    color: palevioletred;
+    margin-bottom: 5px;    
+}
+
+.first-title{
+    color: rgb(230, 132, 165);
+    margin-top: 30px;
+}
+.chance-style{
+    color: black;
+}
+.form-control{
+    height: 80px;
+    font-size: 2vw;
+    text-align: center;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 48rem) {
+    .form-control {
+        font-size: 4vw;
+        max-width: 500px;
+        margin-right: 0px;
+    }
+    .result-style{
+        font-size: 20px;
+    }
+    .pre-title{
+        font-size: 30px;
+    }
+    .first-title{
+        font-size: 27px;
+    }
+    .chance-style{
+        font-size: 20px;
+    }
+    .main-img{
+        width: 45vw;
+        height: 25vh;
+    }
+    .resetBtn-style{
+        font-size: 2.5vw;
+        width: 80px;
+        height: 60px;
+    }
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="first-title">재밌는 <span class="pre-title">숫자</span> 맞추기 게임</h1>
+        <div class="result-style" id="result-area">맞춰보세요!</div>
+        <div class="chance-style" id="chance-area">남은 기회 : 5</div>
+        <div><img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExazMyaGJ6NzVmOXptd3o0dG53MnQ0OXUzbm9kMXls
+            OGk4aDdjZGp2YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qVx82Zydz2dVRrok6t/giphy.gif" 
+            class="main-img"></img>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-6">
+                <input type="number" class="form-control mb-10" id="input-area" placeholder="1부터 100까지의 숫자 입력"/>
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-primary mb-2 button-style" id="play-Button">GO</button>
+            </div>
+        </div>
+    </div>
+    <button class="btn btn-danger mt-3 button-style resetBtn-style" id="reset-Button">RESET</button>
+
+    <script src="main.js"></script>
+</body>
+</html>
